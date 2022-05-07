@@ -4,7 +4,6 @@
     padding: 0%;
     right: 0%;
     top: 0%;
-
 }
 
 ::selection {
@@ -17,24 +16,18 @@
     height: 10px;
 }
 
-
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(89, 164, 255);
-    border-radius: 15px;
-    /* border-radius: 3px; */
-
+    background: rgb(185, 185, 185);
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #b9b9b9;
-
+    background-color: #b9b9b900;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #38cfe6;
+    background: #454546;
 }
 
 /* NAVBAR SECTION */
@@ -43,14 +36,10 @@
     background: linear-gradient(to right, rgb(232, 231, 231), rgb(128, 197, 220));
 }
 
-
-
 .navbar-nav {
     margin-right: 30px;
     font-weight: bold;
-
 }
-
 
 .nav-item {
     margin-right: 10px;
@@ -58,12 +47,8 @@
 }
 
 .dropdown-menu a {
-
-
     font-size: 11px;
-
 }
-
 
 .collapse ul li ul {
     background-color: rgba(142, 201, 250, 0.642);
@@ -89,9 +74,7 @@
     height: 400px;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
-    background-color: #0c0818;
-    
+    margin-left: 10px; 
 }
 
 img.vert-move {
@@ -103,18 +86,15 @@ img.vert-move {
     -webkit-animation: mover 1s infinite alternate;
     animation: mover 1s infinite alternate;
 }
-
 
 @keyframes mover {
     0% {
         transform: translateY(0);
     }
-
     100% {
         transform: translateY(-10px);
     }
 }
-
 
 .ban4 {
     text-align: center;
@@ -132,22 +112,7 @@ img.vert-move {
     font-weight: bold;
 }
 
-.banner2 {
-    background: linear-gradient(to right, rgb(202, 204, 236), rgb(138, 213, 238));
-    border: 2px solid rgb(174, 172, 172);
-    color: rgb(71, 72, 74);
-    padding: 5px;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: 500;
-    font-weight: bold;
-}
-
-
-
 .xyz h6 {
-
-
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 14px;
@@ -158,8 +123,6 @@ img.vert-move {
 }
 
 .xyz2 button:hover {
-
-
     box-shadow: 15px 15px 20px rgb(99, 102, 103);
 }
 
@@ -168,13 +131,10 @@ img.vert-move {
 }
 
 .xyz1 a:hover {
-
-
     box-shadow: 15px 15px 20px rgb(99, 102, 103);
 }
 
 .text-h1 {
-
     margin: 20px 0;
     font-size: 60px;
     font-weight: 600;
@@ -185,8 +145,6 @@ img.vert-move {
 
 
 .text-u {
-
-
     font-size: 36px;
     font-family: "Poppins", sans-serif;
     color: #222222;
@@ -207,19 +165,14 @@ p {
 }
 
 .Services {
-
     text-align: center;
-
 }
 
 .box1 {
-
     width: 350px;
     height: 250px;
     text-align: center;
     margin: auto;
-
-
 }
 
 .box1 a:hover {
@@ -238,20 +191,14 @@ p {
 }
 
 .footer1 {
-
     padding-top: 100px;
     margin-bottom: 40px;
 }
 
-
-
 .abc1:hover {
-
     color: #000000;
-
     box-shadow: 0 5px 8px rgb(104, 115, 117);
 }
-
 
 .abc1 {
     background: linear-gradient(to right, rgb(202, 204, 236), rgb(138, 213, 238));
@@ -260,6 +207,5 @@ p {
     color: rgb(79, 62, 62);
     transition: all 0.3s ease;
     font-weight: bold;
-
     border-radius: px;
 }
