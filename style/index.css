@@ -78,39 +78,38 @@
 }
 
 .ban1 {
-
+    text-align: center;
     height: 500px;
 }
 
 .ban2 {
-    border: 2px solid grey;
-    background-color: rgb(255, 255, 255);
     overflow: hidden;
-    height: 500px;
-    border-radius: 100px;
-    display: flex;
+    height: 400px;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0 5px 10px rgb(104, 115, 117);
-    width: 100px;
+    align-items: center; 
+    margin-left: 10px;
     background-color: #0c0818;
+  
+    
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
 }
 
-.ban3 {
-    border: 2px solid grey;
-    height: 500px;
-    width: 100px;
-    overflow: hidden;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    box-shadow: 0 5px 10px rgb(104, 115, 117);
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
+
 
 .ban4 {
-
+    text-align: center;
     height: 500px;
 }
 
