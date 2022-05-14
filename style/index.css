@@ -1,11 +1,15 @@
 * {
-    font-family: "Poppins", sans-serif;
+    
     margin: 0%;
     padding: 0%;
     right: 0%;
     top: 0%;
 }
 
+body{
+    font-family: 'Lato',sans-serif;
+    
+}
 ::selection {
     color: #010304;
     background: #38cfe6;
@@ -18,27 +22,29 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(185, 185, 185);
+    background: rgb(10, 5, 39);
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #b9b9b900;
+    background-color: #eae1e1f2;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #454546;
+    background: #0202ff;
 }
 
 /* NAVBAR SECTION */
 
 .navbar {
-    background: linear-gradient(to right, rgb(232, 231, 231), rgb(128, 197, 220));
+    background: linear-gradient(to right, rgb(232, 231, 231), rgba(92, 184, 215, 0.795));
 }
 
 .navbar-nav {
     margin-right: 30px;
-    font-weight: bold;
+    font-weight: 800;
+  font-style: italic;
+
 }
 
 .nav-item {
@@ -71,7 +77,8 @@
 
 .ban2 {
     overflow: hidden;
-    height: 400px;
+    height: 350px;
+    width: auto;
     justify-content: center;
     align-items: center;
     margin-left: 10px; 
@@ -118,6 +125,21 @@ img.vert-move {
     font-size: 14px;
 }
 
+.xyz1 h1{
+    color: #38cfe6;
+    font-weight: 600;
+}
+
+.xyz1 h6{
+    color: rgb(23, 23, 23);
+    font-weight: 800;
+}
+.xyz2 h6{
+    color: rgb(23, 23, 23);
+    font-weight: 800;
+}
+
+
 .xyz2 button {
     transition: 0.3s ease;
 }
@@ -147,7 +169,7 @@ img.vert-move {
 .text-u {
     font-size: 36px;
     font-family: "Poppins", sans-serif;
-    color: #222222;
+    color: #0394dc;
     line-height: 1.5em !important;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -160,7 +182,7 @@ p {
     font-size: 14px;
     color: grey;
     padding-bottom: 20px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.625rem;
 }
 
@@ -176,7 +198,7 @@ p {
 }
 
 .box1 a:hover {
-    text-shadow: 0 5px 8px rgb(104, 115, 117);
+    text-shadow: 0 5px 8px rgb(181, 181, 181);
 }
 
 .box1 a {
@@ -187,7 +209,8 @@ p {
 }
 
 .box1 a:hover {
-    color: linear-gradient(to right, rgb(61, 73, 240), rgb(0, 191, 255));
+    color:rgb(15, 154, 234);
+    
 }
 
 .footer1 {

@@ -15,17 +15,21 @@
     <link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro/4cac1a6/css/all.css" rel="stylesheet"
         type="text/css" />
     <link rel="stylesheet" href="index.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,900&family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
     <title>UJJWAL PORTFOLIO</title>
 </head>
 
-<body>
+<body class="bg-light">
     <!-- NAVBAR START HERE -->
 
     <div id="home"></div>
     <nav class="navbar navbar-expand-lg navbar-light  " style="position: fixed;top: 0;width: 100%;    z-index: 10000; ">
         <div class="container-fluid navscrol ">
-            <a class="navbar-brand " href="#"><img src="images/Black_and_Red_Laser_Games_Logo__1_-removebg-preview.png"
-                    width="80px" alt=""></a>
+            <a class="navbar-brand " href="#"><img src="images/Initial Brand logo.png"
+                    width="120px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,6 +48,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/ujjwal-tripathi-71965a237/">
                             <i class="fab fa-linkedin fs-5 "></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Ujjwal-tripathi9936">
+                             <i class="fab fa-github fs-5"></i> </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.instagram.com/ujjwal_tripathi20/">
@@ -67,12 +75,12 @@
     <!-- NAVBAR END HERE -->
 
     <!-- INTRODUCTION SECTION START HERE -->
-    <div class="container firstbox ">
-        <div class="row g-5 ">
+    <div class="container firstbox bg-light">
+        <div class="row g-5 mt-5">
             <div class="ban1 col-lg-6">
                 <div class="xyz1 my-5">
 
-                    <h6>FULL STACK DEVELOPER</h6>
+                    <h6>FULL STACK <span>DEVELOPER</span> </h6>
                     <h1 class="text-h1"> UJJWAL TRIPATHI</h1>
                     <p> INTERESTED IN FULL STACK DEVELOPMENT.<br>LOOKING FOR A ROLE WHERE I CAN GROW AND
                         LEARN FROM AN EXPERIENCED TEAM MEMBER.</p>
@@ -90,9 +98,9 @@
                         </button></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12  px-3">
+            <div class="col-lg-6 col-md-12  px-3 " >
                 <div class="ban2 card shadow p-5  mb-5  rounded ">
-                    <img src="images/21220147_0-removebg-preview.png" alt="" class="vert-move">
+                    <img src="images/box img.gif" alt="" width="400px" class="vert-move mt-5">
                 </div>
             </div>
 
@@ -101,11 +109,13 @@
     <!-- INTRODUCTION SECTION END HERE -->
 
     <!-- ABOUT ME SECTION STAART HERE -->
-    <div id="aboutus" class="container my-5">
+    <div id="aboutus" class="container my-5 bg-light">
         <div class="row g-5 ">
-            <div class="col-lg-6 col-md-12 px-3" style="position:scroll">
+            <div class="col-lg-6 col-md-12 px-3" style="position:scroll"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="ban2 card shadow p-5  mb-5 bg-body rounded">
-                    <img src="images/frontend.gif" alt="" class="vert-move">
+                    <img src="images/gif for box.gif" alt="" width="400px" class="vert-move">
                 </div>
             </div>
             <div class="ban4 col-lg-6">
@@ -173,7 +183,7 @@
 
 
     <!-- SKILLS SECTION START HERE -->
-    <div id="services" class="container Services ">
+    <div id="services" class="container Services bg-light ">
         <div class="row">
             <div class=" col-lg-12 my-5">
                 <h1 class="text-u">My Strength And Skills</h1>
@@ -183,7 +193,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 ">
+    <div class="container-fluid mt-5 bg-light">
         <div class="row ">
             <div class="col-lg-12 col-md-12  d-md-flex d-sm-block justify-content-center">
                 <div class="box1">
@@ -275,7 +285,12 @@
     </div>
     <!-- FOOTER END HERE -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
