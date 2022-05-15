@@ -185,6 +185,49 @@ p {
     line-height: 1.625rem;
 }
 
+
+
+.project-box{
+    position: relative;
+    height:auto;
+    width: auto;
+    
+}
+
+
+.project-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 192, 241, 0.695);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#010304;
+    opacity: 0;
+    transition: all .3s ease;
+    
+
+}
+
+.project-box:hover .overlay {
+    opacity: 1;
+}
+
+.project-box .overlay a{
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.project-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
 .Services {
     text-align: center;
 }
